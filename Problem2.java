@@ -15,7 +15,7 @@ class Problem2 {
     }
 
     public static int fib(int n){
-        //O(log(n)), given that the Math.pow() function function on O(log(n))
+        //O(log(n)), given that the Math.pow() function runs in O(log(n))
         //We use the the golden ratio formula to calculate the nth fibonacci number
         double phi = (1 + Math.sqrt(5))/2;
         return (int) Math.round((Math.pow(phi,n))/Math.sqrt(5));
